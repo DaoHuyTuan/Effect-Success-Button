@@ -24,11 +24,12 @@
 }
 .img-button{
     display: none;
+    padding-top: 7px; 
 }
 
-.button:hover  .img-button {
+/* .button:active  .img-button {
     display: block;
 }
-.button:hover  .text-button {
+.button:active  .text-button {
     display: none;
-}
+} */
