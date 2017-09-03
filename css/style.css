@@ -6,30 +6,31 @@
     width:300px;
     height: 200px;
     margin: 50px 50px 50px 50px;
-    background: red;
+   
     
 }
 .button{
     width: 200px;
-    height: 50px;
+    height: 60px;
     margin: 50px 10px 10px 50px;
-    background: blue;
+    border-radius: 20px;
+   
+    background: #38EEA5;
     text-align: center;
 }
 .text-button{
     color: white;
     font-size: 21px;
-    padding-top: 10px;
+    padding-top: 15px;
     display: block;
 }
 .img-button{
     display: none;
-    padding-top: 7px; 
+    padding-top: 13px; 
 }
-
-/* .button:active  .img-button {
-    display: block;
+.loader{
+    width: 50px;
+    height:50px;
+    border-radius:50%;
+    background: red;
 }
-.button:active  .text-button {
-    display: none;
-} */
