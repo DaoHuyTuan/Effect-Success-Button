@@ -1,28 +1,20 @@
-.successButton ,button{
-    float: left;
-}
 
-.successButton {
-    width:300px;
-    height: 200px;
-    margin: 50px 50px 50px 50px;
-   
-    
-}
 .button{
+    margin-top: 150px;
     width: 200px;
     height: 60px;
-    margin: 50px 10px 10px 50px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
     display: block;
     border-color: white;
     outline-style: none;
     background: #1ECD97;
     border: 2px solid transparent;
-    text-align: center;
+    transition: 0.5s;
     color: white;
     font-size: 20px;
-    transition: 0.6s;
+    
 }
 .text-button{
     color: white;
@@ -32,27 +24,24 @@
 }
 
 .loader{
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
     width: 50px;
     height:50px;
-    border-radius:50%;
-    display: inline-block;
-    position: relative;
-    background: white;
+    border-radius:50px;
+    border: 4px solid #eee;
+    border-top-color:#CDC8C8; 
+    transform: rotate(360deg);
+    animation: loader 2s  linear infinite;
+    transition: 0.5s;
     
 }
 
 .loader:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top:-5px;
-    left: -5px;
-    width: 50px;
-    height:50px;
-    border-radius:50%;
-    border: 4px solid #eee;
-    border-top-color:red; 
-    animation: loader 2s  linear infinite;
+   
     
 }
 @keyframes loader {
@@ -62,6 +51,6 @@
     }
     100% {
         transform: rotate(360deg);
-        transition: 2s;
+        
     }
 }
